@@ -1,0 +1,49 @@
+{
+  "name": "utcum",
+  "version": "1.9.0",
+  "description": "map-ext",
+  "main": "cjs/index.js",
+  "types": "esm/index.d.ts",
+  "keywords": [
+    "amet",
+    "weak-map-ext",
+    "typescript",
+    "ts",
+    "pariatur",
+    "culpa",
+    "commodi",
+    "est"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StantonKovacek/utcum.git"
+  },
+  "author": "RogerHauck",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "@types/node": "^16.11.6",
+    "jest": "^27.0.2",
+    "ts-jest": "^27.0.2",
+    "ts-node": "^8.6.2",
+    "typescript": "^4.5.4"
+  },
+  "exports": {
+    "require": "./cjs/index.js",
+    "import": "./esm/index.js"
+  },
+  "jest": {
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
+  },
+  "dependencies": {
+    "evenietomnis": "^1.0.0"
+  }
+}
